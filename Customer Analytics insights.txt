@@ -1,0 +1,58 @@
+Overview
+‘Denco Corp’ a multi-utility manufacturing company sells finished and semi-finished
+utility devices and part components to customers across the continent. ‘Denco Corp’s’
+customer base consists mainly of small and medium sized businesses that further
+process the purchased parts before it becomes a consumer end product. ‘Denco Corp’
+relies on repeated sales and higher margin from its customers to expand the business.
+
+
+Dataset Description
+The “CustomerPartSales” has 7583 rows and 6 columns. The data contains the
+simulated sales transaction data of “Denco Corp” a multi-utility manufacturing
+company from sales of its parts to various customers. Each row of the transaction data
+contain the following 5 fields:
+n CUSTNAME: Name of the customer
+n REGION: Geographic region class of the customer
+n PARTNUM: Part number purchased
+n REVENUE: Revenue from the transaction
+n COST: Cost to company
+n MARGIN: Profit margin from the transaction
+
+
+
+Objectives
+‘Denco Corp’ has a number of loyal customers who contribute to significant portion of
+revenue. They are looking to expand their business by encouraging loyal customers so
+as to improve repeated sales and would like to maximize revenue from high value parts.
+In order to do that, they would like to know:
+n Task 1. Who are the most loyal customers?
+n Task 2. Which customers contribute the most to their revenue?
+n Task 3. What part numbers bring in to significant portion of revenue?
+n Task 4. What parts have the highest profit margin?
+
+
+Other Considerations
+Since this is an activity that ‘Denco Corp’
+might be interested to review periodically
+in the future, it is wise to add comments to
+your script where ever possible so the
+‘future you’ can easily understand it.
+Also, while writing the script name your
+variables so later it would be self-evident
+what they hold.
+
+
+
+Derivative fields : 
+
+MARGIN_PERC
+NUM_CUSTOMER_BUYING_THIS_PART
+NUM_PARTS_BOUGHT_BY_THIS_CUSTOMER
+TOTAL_REVENUE_FROM_THIS_PART
+SHARE_OF_TOTAL_REVENUE_FROM_THIS_PART
+TOTAL_REVENUE_FROM_THIS_CUST
+SHARE_OF_TOTALREVENUE_FROM_THIS_CUST
+SHARE_OF_REVENUE_OF_THIS_PART_FROM_ALLPURCHASES_OF_THIS_CUSTOMER
+SHARE_OF_REVENUE_OF_THIS_CUSTOMER_FROM_ALLSALES_OF_THIS_PART
+NUM_TRANSACTION_FOR_THIS_PARTNUM
+NUM_TRANSACTION_FOR_THIS_CUSTNAME
